@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">易燃</string>
+    <string name="choice">它最好用</string>
+    <string name="etanol">一升乙醇的价格</string>
+    <string name="gasolina">汽油价格升</string>
+</resources>
