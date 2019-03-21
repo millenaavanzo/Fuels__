@@ -5,4 +5,5 @@
     <color name="colorAccent">#ffa726</color>
     <color name="amount_background">#bbdefb</color>
     <color name="result_background">#ffe0b2</color>
+    <color name="letter">#000000</color>
 </resources>

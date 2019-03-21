@@ -2,6 +2,8 @@
 <resources>
     <string name="app_name">易燃</string>
     <string name="choice">它最好用</string>
-    <string name="etanol">一升乙醇的价格</string>
-    <string name="gasolina">汽油价格升</string>
+    <string name="etanol">乙醇</string>
+    <string name="gasolina">汽油</string>
+    <string name="priceEthanol">一升乙醇的价格</string>
+    <string name="priceGasoline">汽油价格升</string>
 </resources>
