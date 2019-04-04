@@ -38,7 +38,6 @@
         android:layout_width="wrap_content"
         android:layout_height="@dimen/seekbar_height"
         android:layout_gravity="fill_horizontal"
-
         android:max="10"
         android:progress="3"
         android:layout_row="1"
@@ -58,12 +57,13 @@
         android:layout_columnSpan="2"
         android:layout_column="0"
         />
-    <TextView
+   <TextView
         android:id="@+id/valueEthanol"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textColor="@color/letter"
         android:gravity="center"
+
         android:padding="@dimen/textview_padding"
         android:layout_row="3"
         android:layout_column="0" />
@@ -76,52 +76,49 @@
         android:progress="3"
         android:layout_row="3"
         android:layout_column="1" />
-   <!-- <TextView
-        android:id="@+id/a"
-        android:layout_width="wrap_content"
+
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/titleTextInput"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_gravity="fill_horizontal"
-        android:textColor="@color/letter"
-        android:gravity="center"
-        android:text="@string/choice"
-        android:padding="@dimen/textview_padding"
         android:layout_row="4"
-        android:layout_column="0" /> -->
- <android.support.design.widget.TextInputLayout
-         android:id="@+id/titleTextInput"
-         android:layout_row="4"
-         android:layout_width="match_parent"
-         android:layout_height="wrap_content"
-         android:layout_columnSpan="2"
-     android:layout_column="0"
-         android:paddingTop="15dp"
-         android:layout_gravity="center_horizontal"
-         android:background="@color/colorAccent"
-         android:textColorHint="@color/letter"
-         android:textSize="40sp"
-         >
+        android:layout_column="0"
+        android:layout_columnSpan="2"
 
-         <android.support.design.widget.TextInputEditText
-             android:id="@+id/choiceEditText"
-             android:layout_width="match_parent"
-             android:textColor="@color/letter"
-             android:layout_height="wrap_content"
-             android:background="@color/result_background"
-             android:enabled="false"
-             android:inputType="none"
-             android:hint="@string/choice"
-             android:text="@string/gasolina"
-             android:textAlignment="center"
-             android:textSize="@dimen/text"
-             android:autofillHints=""/>
+        android:layout_gravity="center_horizontal"
+               android:paddingTop="@dimen/textview_padding"
+        android:textSize="@dimen/text"
+        android:hint="@string/choice"
+ >
 
-     </android.support.design.widget.TextInputLayout>
+        <EditText
+            android:id="@+id/choiceEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/result_background"
+            android:enabled="false"
+            android:inputType="none"
+            android:selectAllOnFocus="false"
+            android:singleLine="false"
+            android:text="@string/gasolina"
+            android:textAlignment="center"
+            android:textColor="@color/letter"
+            android:layout_gravity="fill_horizontal"
+            android:layout_column="2"
+android:autofillHints=""
+            />
+
+
+
+    </android.support.design.widget.TextInputLayout>
 
     <ImageView
         android:id="@+id/image"
         android:layout_width="wrap_content"
         android:layout_height="289dp"
         android:layout_row="13"
+
         android:layout_columnSpan="2"
         android:layout_gravity="fill_horizontal"
         android:contentDescription="@string/gasolina"
